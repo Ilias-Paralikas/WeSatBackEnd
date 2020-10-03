@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<?php include('templates/header.php');
+<?php include('header.php');
 
 if (isset($_GET['submit'])) {
     include('connection.php');
@@ -28,6 +28,6 @@ if (isset($_GET['submit'])) {
     </section>
 <?php } ?>
 
-<?php include('templates/footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </html>
