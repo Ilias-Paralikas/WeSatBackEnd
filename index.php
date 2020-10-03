@@ -13,7 +13,7 @@ mysqli_close(($conn));
 <!DOCTYPE html>
 <html>
 
-<?php include('templates/header.php'); ?>
+<?php include('header.php'); ?>
 
 <script>
     function VisitedSatelights() {
@@ -45,6 +45,6 @@ mysqli_close(($conn));
 
 </table>
 
-<?php include('templates/footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </html>
